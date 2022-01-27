@@ -1,0 +1,18 @@
+class NoConsturctor 
+{
+	String title;
+	double price;
+	String author;
+
+class driver 
+{
+	public static void show() 
+	{
+		System.out.println(title);
+		System.out.println(price);
+		System.out.println(author);
+
+		
+	}
+}
+}

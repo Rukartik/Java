@@ -1,0 +1,15 @@
+class TYCP1 
+{
+	static int num;
+	public static void main(String[] args) 
+	{
+		int a=50;
+		{
+			int b=10;
+			System.out.println(a);
+			
+		}
+		System.out.println(num);
+
+	}
+}

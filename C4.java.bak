@@ -1,0 +1,15 @@
+import java.util.*;
+class  C4
+{
+	public static void main(String[] args) 
+	{
+		ArrayList a = new ArrayList();
+		a.add("shella");
+		a.add("leela");
+		a.add("munni");
+		a.add("param sundari");
+
+		Collections.sort(a);
+		System.out.println(a);
+	}
+}

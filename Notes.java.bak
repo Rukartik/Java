@@ -1,0 +1,29 @@
+class Notes
+{
+	String title;
+	double price;
+	String author;
+
+
+	/*public static void show() 
+	{
+		System.out.println(title);
+		System.out.println(price);
+		System.out.println(author);	
+	}*/
+
+public static void main(String[] args)
+	{
+	Notes n1 = new Notes();
+	System.out.println(n1.title);
+	System.out.println(n1.price);
+	System.out.println(n1.author);
+
+	}
+	Notes ()
+	{
+	System.out.println("NoArgConst");
+	}
+	 
+}
+

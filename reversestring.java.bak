@@ -1,0 +1,11 @@
+class reversestring 
+{
+	public static void main(String[] args) 
+	{
+		String str = "Kartik";
+		String temp = str%10;
+		System.out.println(temp);
+		str=str/10;
+		
+	}
+}

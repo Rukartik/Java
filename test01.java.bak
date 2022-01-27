@@ -1,0 +1,11 @@
+package pack01;
+public class test01
+{
+	static int a = 10;
+	public int b = 20;
+
+	public static void demo()
+	{
+		System.out.println("demo");
+	}
+}

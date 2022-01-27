@@ -1,0 +1,12 @@
+class tostring 
+{
+	public static void main(String[] args) 
+	{
+		tostring s = new tostring();
+		
+		System.out.println(s);
+		
+		System.out.println(s.toString());
+
+	}
+}

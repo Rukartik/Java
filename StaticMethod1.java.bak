@@ -1,0 +1,26 @@
+class StaticMethod1
+{
+	public static void Static()
+	{
+		System.out.println("Hello World!");
+	}
+	static void demo()
+	{
+		System.out.println("!!!!!!!!");
+	}
+}
+
+class Driver
+{
+	public static void main(String[] args)
+	{
+		//Static();
+		//demo();
+
+		System.out.println(StaticMethod1.demo);
+	}
+
+
+
+
+}

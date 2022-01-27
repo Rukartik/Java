@@ -1,0 +1,12 @@
+class abc 
+{
+	public static void main(String[] args) 
+	{
+		int i=10; b=12;
+		while(i++>(++b+1));
+		{
+			System.out.println(i+" "+b);
+		}
+	}
+
+}

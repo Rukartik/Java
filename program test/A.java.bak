@@ -1,0 +1,28 @@
+class A
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main() of A");
+	}
+	static
+	{
+		System.out.println("Static block A");
+	}
+}
+class B
+{
+	static int c=50;
+	public static void main(String[] args) 
+	{
+		System.out.println(B.b);
+		System.out.println(B.c);
+		System.out.println("Main() of B");
+		
+	}
+	static
+	{	
+		//int c = 50;
+		System.out.println("Static block B");
+	}
+	static int b = 40;
+}

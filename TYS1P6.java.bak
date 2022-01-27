@@ -1,0 +1,9 @@
+class TYS1P6
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("name : Kartik");
+		System.out.print("aggregate : 71");
+		System.out.print("YOP : 2020");
+	}
+}

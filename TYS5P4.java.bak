@@ -1,0 +1,14 @@
+class TYS5P4
+{
+	
+	public static void num()
+	{
+		int num=1234;
+		int result = num%10;
+		System.out.println(result);
+	}
+	public static void main(String[] args)
+	{
+		num();
+	}
+}

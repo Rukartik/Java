@@ -1,0 +1,23 @@
+class  TYS3P3
+{
+	public static void main(String[] args) 
+	{
+		int a=48;
+		
+		byte b=(byte)a;	//implicit (loss of data)
+		short c=(short)a;
+		char d=(char)a;
+		long e=a;
+		float f=a;
+		double g=a;
+				
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		
+	}
+}
